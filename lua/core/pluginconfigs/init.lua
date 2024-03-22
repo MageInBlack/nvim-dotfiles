@@ -10,3 +10,6 @@ wk.register({
 		},
 	},
 })
+
+-- lualine
+require('lualine').setup()

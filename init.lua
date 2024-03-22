@@ -3,6 +3,7 @@ require("core.mappings")
 require("core.lazy")
 
 -- Set line numbers
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.wo.number = true
 vim.wo.relativenumber = true
 

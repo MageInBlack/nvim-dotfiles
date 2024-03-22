@@ -5,7 +5,7 @@ wk.register({
 		f = {
 			name="+file",
 			f = {"<cmd>Telescope find_files<cr>", "Find File"},
-			e = {"<cmd>Ex<cr>", "File Explorer"},
+			e = {"<cmd>Neotree toggle<cr>", "File Tree Explorer"},
 			g = {"<cmd>Telescope git_files<cr>", "Find Files Git repo"}
 		},
 	},

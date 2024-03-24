@@ -9,7 +9,14 @@ wk.register({
 			g = {"<cmd>Telescope git_files<cr>", "Find Files Git repo"}
 		},
 	},
+  ["<C-h>"] = {"<cmd>wincmd h<cr>","Move to left split"},
+  ["<C-h>"] = {"<cmd>wincmd j<cr>","Move to lower split"},
+  ["<C-h>"] = {"<cmd>wincmd k<cr>","Move to upper split"},
+  ["<C-h>"] = {"<cmd>wincmd h<cr>","Move to right split"},
 })
 
 -- lualine
 require('lualine').setup()
+
+-- telescope
+require("telescope").load_extension("fzf")

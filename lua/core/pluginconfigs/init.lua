@@ -10,9 +10,9 @@ wk.register({
 		},
 	},
   ["<C-h>"] = {"<cmd>wincmd h<cr>","Move to left split"},
-  ["<C-h>"] = {"<cmd>wincmd j<cr>","Move to lower split"},
-  ["<C-h>"] = {"<cmd>wincmd k<cr>","Move to upper split"},
-  ["<C-h>"] = {"<cmd>wincmd h<cr>","Move to right split"},
+  ["<C-j>"] = {"<cmd>wincmd j<cr>","Move to lower split"},
+  ["<C-k>"] = {"<cmd>wincmd k<cr>","Move to upper split"},
+  ["<C-l>"] = {"<cmd>wincmd l<cr>","Move to right split"},
 })
 
 -- lualine
